@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color:#ffffff;
+}
+
+header{
+   width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    padding: 20px;
+}
+
+.menu ul li{
+    display: inline;
+}
+
+.menu > ul > li> a:link{
+text-decoration:none;
+color: #000;
+
+}
+
+.menu > ul > li> a:hover{
+    border-bottom: 2px solid green;
+    }
+
+    .menu > ul > li> a:active{
+        border-bottom: 2px solid green;
+        color: black;
+        }
+
+#ativo{
+    border-bottom: 2px solid green;
+}
+
+#Logo{
+    width:200px;
+
+}
+
+#banner-escola{
+    width: 100%;
+    height: 800px;
+}
+
+.banner{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    border-radius: 40%;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.conteúdo{
+   display: flex; 
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   max-width: 20%;
+}
+
+#video{
+    background-color:rgba(135, 200, 120, 1);
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    height: 360px;
+    width: 100%;
+    border-bottom: 3px solid orange;
+}
+
+#video > .container > img{
+    height: 315px;
+}
+
+footer{
+    text-align: center;
+    margin: 20px;
+}
+footer > p > a{
+    text-decoration: none;
+    color: #000;
+}
+h1{
+    text-align: center;
+}
+
+.conteúdo{
+    text-decoration: none;
+    color: #000;
+}
+h2{
+    text-align: center;
+}
+.gremio{
+    text-align: center;
+   justify-content: center; 
+}
+main p a{
+    text-decoration: none;
+    color: #000;
+}
